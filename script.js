@@ -23,7 +23,7 @@ function calcularRuta() {
         recomendacion = "Alta ocupación, considere salir antes";
     }
 
-    document.getElementById("eta").innerText = tiempoBase + " minutos";
+    document.getElementById("tiempoEstimado").innerText = tiempoBase + " minutos";
     document.getElementById("ocupacion").innerText = ocupacion + "%";
     document.getElementById("recomendacion").innerText = recomendacion;
 

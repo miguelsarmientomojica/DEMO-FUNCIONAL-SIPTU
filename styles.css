@@ -1,11 +1,14 @@
-/* ==== ESTILOS BASE ==== */
-
 body {
     font-family: Arial, sans-serif;
     background-color: #F2F2F2;
     margin: 0;
     color: #333333;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
 
 header {
     background-color: #D50032;
@@ -26,19 +29,19 @@ main {
     margin-top: 40px;
 }
 
+
 footer {
     background-color: #333333;
     color: white;
     text-align: center;
     padding: 12px;
-    margin-top: 40px;
+    margin-top: auto;
     font-size: 0.9rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 
-/* ==== CONTENEDORES ==== */
+
+
+/*CONTENEDORES */
 
 .card-container {
     display: flex;
@@ -48,7 +51,7 @@ footer {
     max-width: 900px;
 }
 
-/* ==== FORMULARIO Y RESULTADOS ==== */
+/*FORMULARIO Y RESULTADOS*/
 
 .form-card, .result-card {
     background: white;
@@ -82,7 +85,7 @@ input {
     border: 1px solid #CCCCCC;
 }
 
-/* ==== BOTONES ==== */
+/*BOTONES*/
 
 .btn-primary {
     background-color: #004AAD;
@@ -116,7 +119,7 @@ input {
     background-color: #555555;
 }
 
-/* ==== MODAL ==== */
+/*MODAL*/
 
 .modal {
     display: none;
